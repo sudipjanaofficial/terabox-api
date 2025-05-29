@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: streambox-api-9271
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
